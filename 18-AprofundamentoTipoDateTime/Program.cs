@@ -28,11 +28,23 @@ namespace _18_AprofundamentoTipoDateTime
 
             DateTime dataConvertida = Convert.ToDateTime("22/11/2030");
             DateTime dataHoraConvertida = Convert.ToDateTime("22/11/2030 14:10:23");
-            Console.WriteLine
+            Console.WriteLine("------");
+
+            //formatando data e hora impressa
+            Console.WriteLine(dataHoraConvertida.ToString("yy/MM"));
+            Console.WriteLine(dataHoraConvertida.ToString("yyyy/MM/2022"));
+            Console.WriteLine(dataHoraConvertida.ToString("yyyy-MM-dd"));
+            Console.WriteLine(dataHoraConvertida.ToString("HH:mm:ss"));
 
 
+            //Operações com as variaiveis DateTime
+            DateTime dataHora2 = new DateTime(2020, 09, 24, 14, 5, 20);
+            Console.WriteLine("data hora normal: "+dataHora2);
+            dataHora2 = dataHora2.AddDays(4);
+            Console.WriteLine("data hora + 4: "+dataHora2.ToString());
+            //dataHora2 = dataHora2.AddMonths(4);
+            //dataHora2= dataHora2.AddYears(4);
 
-            
             Console.ReadKey();
         }
     }

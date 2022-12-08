@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-OperadoresMatematicosAvancados", "17-OperadoresMatematicosAvancados.csproj", "{24CB5FAA-6703-4B37-8BF1-56D240806651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24CB5FAA-6703-4B37-8BF1-56D240806651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CB5FAA-6703-4B37-8BF1-56D240806651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CB5FAA-6703-4B37-8BF1-56D240806651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CB5FAA-6703-4B37-8BF1-56D240806651}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75590BD6-E3E9-4618-98D4-AC7AC0069FE6}
+	EndGlobalSection
+EndGlobal

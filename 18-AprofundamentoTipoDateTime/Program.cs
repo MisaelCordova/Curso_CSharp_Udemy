@@ -42,8 +42,25 @@ namespace _18_AprofundamentoTipoDateTime
             Console.WriteLine("data hora normal: "+dataHora2);
             dataHora2 = dataHora2.AddDays(4);
             Console.WriteLine("data hora + 4: "+dataHora2.ToString());
+
             //dataHora2 = dataHora2.AddMonths(4);
             //dataHora2= dataHora2.AddYears(4);
+
+            dataHora2 = dataHora2.Add(new TimeSpan(4, 1, 55, 30));
+            Console.WriteLine(dataHora2.ToString("dd HH:mm :ss"));
+
+            //Subitraindo datas
+
+            DateTime dataHora3 = new DateTime(2022, 3, 1, 14, 5,20);
+            Console.WriteLine("data hora 3"+dataHora3.ToString());
+            Console.WriteLine("----");
+            dataHora3 = dataHora3.Subtract(new TimeSpan(1, 5, 20));
+            Console.WriteLine(dataHora3.ToString("HH:mm:ss"));
+
+            dataHora3 = dataHora3.AddDays(-1);
+            Console.WriteLine(dataHora3.ToString("dd/MM/yy"));
+
+
 
             Console.ReadKey();
         }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9172F671-97DD-4B44-A3DB-DA9C3749179C}</ProjectGuid>
+    <ProjectGuid>{BC518C5B-8DAC-4FAA-81E6-FAC07E10B158}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_10_Depuracao_basica</RootNamespace>
-    <AssemblyName>10-Depuracao-basica</AssemblyName>
+    <RootNamespace>_50_OitavoProjeto</RootNamespace>
+    <AssemblyName>50-OitavoProjeto</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,8 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseDeDados.cs" />
+    <Compile Include="CadastroPessoa.cs" />
+    <Compile Include="InterfaceGrafica.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Serializador.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -61,7 +61,7 @@ namespace _84_ProjetoLogin
                 }
             } else
             {
-                lbllogin.Text = "Logado!";
+                lbllogin.Text = "Login!";
                 lbllogin.ForeColor = Color.Black;
                 txtUsuario.Text = "";
                 mskSenha.Text = "";

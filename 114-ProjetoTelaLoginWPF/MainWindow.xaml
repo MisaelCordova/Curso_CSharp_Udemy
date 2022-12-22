@@ -1,0 +1,44 @@
+﻿<Window x:Class="_114_ProjetoTelaLoginWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_114_ProjetoTelaLoginWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="10"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="3" Content="Login" HorizontalAlignment="Left" Margin="4,4,0,4" Grid.Row="1" Grid.ColumnSpan="4" FontSize="36" Width="136" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.RowSpan="2"/>
+        <Label Content="Usuário:" Grid.Row="4" VerticalAlignment="Center" RenderTransformOrigin="0.514,3.693" FontSize="14" Grid.ColumnSpan="3" Margin="10,0,33,0" Grid.Column="1"/>
+        <Label Grid.Column="1" Content="Senha:" Grid.Row="6" VerticalAlignment="Center" RenderTransformOrigin="0.514,3.693" FontSize="14" Grid.ColumnSpan="2" Width="50" Margin="10,0,10,0" Height="29"/>
+        <TextBox x:Name="txtusuario" Grid.Column="1" Grid.ColumnSpan="9" Margin="9,0,4,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Height="32"/>
+        <PasswordBox x:Name="psbSenha" Grid.Column="1" Grid.ColumnSpan="9" Margin="10,4,4,4" Grid.Row="7"/>
+        <TextBox x:Name="txtSenha" Grid.Column="1" Grid.ColumnSpan="9" Margin="10,4,5,4" Grid.Row="7" TextWrapping="Wrap" Visibility="Collapsed"/>
+        <Button x:Name="btnEntrar" Grid.Column="1" Content="Entrar" Margin="10,4,4,4" Grid.Row="8" Grid.ColumnSpan="8" FontSize="14" Click="btnEntrar_Click"/>
+        <Button x:Name="btnShow" Grid.Column="7" Content="Show" Grid.Row="6" Margin="26,10,5,10" Grid.ColumnSpan="3" Click="btnShow_Click" MouseLeave="btnShow_MouseLeave"/>
+
+    </Grid>
+</Window>
